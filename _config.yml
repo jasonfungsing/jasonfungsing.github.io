@@ -1,0 +1,21 @@
+# Site settings
+title: Jason Feng Blog
+header-img: img/home-bg.jpg
+email: jason@jasonfeng.me
+copyright_name: Jason Feng
+description: "Jason Feng's Blog"
+baseurl: ""
+url: "http://www.jasonfeng.me"
+twitter_username: jasonfungsing
+github_username:  jasonfungsing
+facebook_username:  jasonfungsing
+email_username:  jason@jasonfeng.me
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
